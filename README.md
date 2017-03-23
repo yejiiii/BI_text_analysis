@@ -3,7 +3,7 @@
 # 가천대학교 산업경영공학과 고객관리 Team Project
 
 
-**본 Repositroy는 Amazon text review를 통해 평점 예측하는 Project 입니다.
+**본 Repositroy는 Amazon text review를 통해 평점 예측하는 Project 입니다.**
 
 
 ## Team
