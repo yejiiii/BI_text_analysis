@@ -1,20 +1,19 @@
 
 
 # 가천대학교 산업경영공학과 고객관리 Team Project
-***
+
 
 ## 본 Repositroy는 Amazon text review를 통해 평점 예측하는 Project 입니다.
 
 
 ## Team
-***
+
    - 서예지(yejiyeji94@gmail.com)
    - 장예훈(jangyh0420@gmail.com)
    - 조용걸(yonggeol93@gmail.com)
 
 
 ## To do list
-***
 
    1. Data 전처리
         - 데이터에서 Review와 Overall text를 추출. (Asin보류)
@@ -26,7 +25,6 @@
 
 
 # 참고자료
-***
 
    - Introduction to ML with Python, Guido, Sarah , 2015
 
