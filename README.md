@@ -3,7 +3,7 @@
 # 가천대학교 산업경영공학과 고객관리 Team Project
 
 
-**본 Repositroy는 review를 통한 평점 예측하기 프로젝트 입니다.
+본 Repositroy는 review를 통한 평점 예측하기 프로젝트 입니다.
 
 
 ## 프로젝트 설명
