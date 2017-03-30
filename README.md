@@ -9,7 +9,7 @@
 
 이 프로젝트는 Amazon의 책 Review 데이터를 분석하여 모델을 구축합니다.
 구축한 모델을 이용해 작성자의 Review에 대한 평점을 예측합니다.  
-
+(참조) web_designing.html
 
 ## Team
 

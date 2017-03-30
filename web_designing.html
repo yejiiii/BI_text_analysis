@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<style type="text/css">
+#txt { width:500px; height:250px; margin-left:20px;}
+.box { display:inline-block; vertical-align:top; margin-top:40px;}
+.star_rating { display:inline-block; font-size:0; padding:20px 0; }
+.star_rating p { font-size:20px; color:#000; padding-left:5px;}
+td { padding-left:15px; font-size:15px;}   
+.star_rating a {
+    font-size:22px;
+    letter-spacing:0;
+    display:inline-block;
+    margin-left:5px;
+    color:#ccc;
+    text-decoration:none;
+}
+#textarea_comment{margin-left:180px; margin-top:20px; font-weight:bold;}
+.star_rating a:first-child {margin-left:0;}
+.star_rating a.on {color:red;}
+.btnBox{   display: block; position: relative;}
+.btn{ background-color:#99ccff; padding: 12px 15px;  text-shadow:0 0 5px #606060; 
+    margin-left:5px; margin-top:40px;
+    font-weight:bold; font-size:15px; color:white; }
+.box2 { display:inline-block; font-size:20px; color:#000; margin-left:30px; }
+.box2 .string { visibility:hidden; }
+.submit { width:600px; padding:15px; box-sizing:border-box; word-wrap: break-word; }
+p { margin:0; padding:0; font-weight:bold;}
+strong{color:red; font-size:30px;}
+
+</style>
+<body>
+    <h4 id="textarea_comment">리뷰를 입력해주세요</h4>
+    <textarea id="txt"></textarea>
+  
+  <div class="box">
+    <div class="star_rating">
+         <p>&nbsp;예상 점수 <a>★</a><a>★</a><a>★</a><a>★</a><a>★</a> &nbsp;<strong class="string">　</strong></p>
+    </div>
+    <div class="btnBox" >
+      <table> 
+        <tr><td><a href="#" onclick="subm();">정확한가요? :)</a></td></tr>
+        <tr><td><a href="#" onclick="remove();">다른가요? :(</a></td></tr>
+        </table>
+    </div>
+    <button class="btn" id="input" type="button" onclick="output();">&nbsp;평점 예측하기</button>
+  </div>
+  <div class="submit">
+    <p></p>
+  </div>
+</body>
+<script>
+  var staring = $(".star_rating a");
+  var temp = 4;
+  function output() {
+    for(var i=0; i<temp; i++) {
+      $(staring[i]).addClass('on');
+    }
+    $('.string').html(temp + '.0').css({visibility:'visible'})
+ 
+  }
+
+  function remove() {
+    staring.removeClass('on');
+    document.getElementById('txt').value = "";
+    $('.string').css({visibility:'hidden'})
+  }
+
+  function subm() {
+    $('.submit').html('<p></p>');
+  }
+
+</script>
+</html>
