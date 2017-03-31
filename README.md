@@ -2,14 +2,20 @@
 
 # POP_STAR 
 
-2017년도 1학기 가천대학교 산업경영공학과 BI수업으로, Review를 통한 평점을 예측하는 프로젝트 페이지입니다.
+2017년도 1학기 가천대학교 산업경영공학과 BI수업으로, Review를 통해 평점을 예측하는 프로젝트 페이지입니다.
 
 
 ## 프로젝트 설명
 
 이 프로젝트는 Amazon의 책 Review 데이터를 분석하여 모델을 구축합니다.
 구축한 모델을 이용해 작성자의 Review에 대한 평점을 예측합니다.  
-(참조) web_designing.html
+
+(참조) 프로젝트 HTML 
+<hr></hr>
+<img wight="200px" height="200px">![Before](https://github.com/yejiiii/BI_text_analysis/master/Web_Design/before_html.png)</img>
+<img wight="200px" height="200px">![After](https://github.com/yejiiii/BI_text_analysis/master/Web_Design/after_html.png)</img>
+
+
 
 ## Team
 
