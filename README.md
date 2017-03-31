@@ -10,10 +10,8 @@
 이 프로젝트는 Amazon의 책 Review 데이터를 분석하여 모델을 구축합니다.
 구축한 모델을 이용해 작성자의 Review에 대한 평점을 예측합니다.  
 
-(참조) 프로젝트 HTML 
-<hr></hr>
-<img wight="200px" height="200px">![Before](https://github.com/yejiiii/BI_text_analysis/master/Web_Design/before_html.png)</img>
-<img wight="200px" height="200px">![After](https://github.com/yejiiii/BI_text_analysis/blob/master/Web_Design/after_html.png)</img>
+(참조) HTML 
+Link : [리뷰 작성 전]<https://github.com/yejiiii/BI_text_analysis/blob/master/Web_Design/before_html.png>
 
 
 
