@@ -13,7 +13,7 @@
 (참조) 프로젝트 HTML 
 <hr></hr>
 <img wight="200px" height="200px">![Before](https://github.com/yejiiii/BI_text_analysis/master/Web_Design/before_html.png)</img>
-<img wight="200px" height="200px">![After](https://github.com/yejiiii/BI_text_analysis/master/Web_Design/after_html.png)</img>
+<img wight="200px" height="200px">![After](https://github.com/yejiiii/BI_text_analysis/blob/master/Web_Design/after_html.png)</img>
 
 
 
