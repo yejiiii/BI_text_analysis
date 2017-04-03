@@ -11,8 +11,8 @@
 구축한 모델을 이용해 작성자의 Review에 대한 평점을 예측합니다.  
 
    - Link 
-       - [HTMLDESIGN] : <https://github.com/yejiiii/BI_text_analysis/blob/master/Web_Design/WebDesigining.html>
-       - [HTMLCODE] : <https://github.com/yejiiii/BI_text_analysis/blob/master/Web_Design/web_designing.html> 
+       - [HTML DESIGN] : <https://rawgit.com/yejiiii/BI_text_analysis/master/Web_Design/WebDesigining.html>
+       - [HTML CODE] : <https://github.com/yejiiii/BI_text_analysis/blob/master/Web_Design/web_designing.html> 
 
 
 
