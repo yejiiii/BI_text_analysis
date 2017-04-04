@@ -12,7 +12,7 @@
 
    - Link 
        - [HTML DESIGN] : <https://rawgit.com/yejiiii/BI_text_analysis/master/Web_Design/WebDesigining.html>
-       - [HTML CODE] : <https://github.com/yejiiii/BI_text_analysis/blob/master/Web_Design/web_designing.html> 
+       - [HTML CODE] : <https://rawgit.com/yejiiii/BI_text_analysis/master/Web_Design/web_designing.html> 
 
 
 
