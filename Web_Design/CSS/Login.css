@@ -1,0 +1,46 @@
+h2{
+    margin:25px auto 20px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.layout_form{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin:auto 80px 50px 80px;
+}
+label {
+    display:block;
+    text-align:left;
+    margin: 0 70px;
+}
+
+input[type=text], input[type=password] {
+    width: 80%;
+    margin: 15px 80px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+.button_box {
+    width: 80%;
+    margin: 15px 80px;
+    box-sizing: border-box;
+}
+
+button {
+    border-radius: 5px;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 0 0 0 ;
+    border: none;
+    cursor: pointer;
+}
+.Login{
+    width:70%;
+    background-color: #4CAF50;
+}
+p{
+    float:right;
+    margin-right:20px;
+}
