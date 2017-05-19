@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../CSS/Main.css">
+      <link rel="stylesheet" href="../CSS/Predict.css">
+  </head>
+
+  <body>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Review Rating</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="Login.html"><span class="glyphicon glyphicon-log-in" ></span> Login</a></li>
+              <li><a href="SignUp.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="container">
+        <h2>Your Review Rating <span class="glyphicon glyphicon-ok"></span></h2>
+        <hr>
+        <h2>4.8 out of 5</h2>
+        <br>
+        <p>If not ? <a onclick="document.getElementById('rate').style.display='block'">Click here</a></p>
+
+        <div class="txt-center" id="rate" style="display:none">
+            <form>
+                <div class="rating">
+                    <input id="star5" name="star" type="radio" value="5" class="radio-btn hide" />
+                    <label for="star5">☆</label>
+                    <input id="star4" name="star" type="radio" value="4" class="radio-btn hide" />
+                    <label for="star4">☆</label>
+                    <input id="star3" name="star" type="radio" value="3" class="radio-btn hide" />
+                    <label for="star3">☆</label>
+                    <input id="star2" name="star" type="radio" value="2" class="radio-btn hide" />
+                    <label for="star2">☆</label>
+                    <input id="star1" name="star" type="radio" value="1" class="radio-btn hide" />
+                    <label for="star1">☆</label>
+                    <div class="clear"></div>
+                </div>
+            </form>
+        </div>
+        <button type="button">OK</button>
+        <hr>
+      </div>
+
+  </body>
+
+<script>
+
+</script>
+</html>
