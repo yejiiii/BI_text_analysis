@@ -31,5 +31,7 @@
 
 ## 참고자료
 
+   - KDnuggets-7 Techniques to Handle Imbalanced Data
+       - [Link] : <http://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html>
    - Building Machine Learning Systems with Python, 2013, Packt Publishing
    - 밑바닥부터 시작하는 데이터 과학(데이터 분석을 위한 파이썬 프로그래밍과 수학·통계 기초) , 2016, Insight
