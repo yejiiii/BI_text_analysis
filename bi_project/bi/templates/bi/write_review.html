@@ -1,0 +1,46 @@
+{% load staticfiles %}
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}"/>
+    <link rel="stylesheet" href="{% static "css/bootstrap-theme.css" %}"/>
+    <script src="{% static "js/jquery-3.2.1.min.js" %}"/>
+    <script src="{% static "js/bootstrap.min.js" %}"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{% static "css/Write.css" %}"/>
+  </head>
+
+<body>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="{% url 'write' %}">Review Rating</a>
+          </div>
+      </nav>
+
+
+      <div class ="container">
+         <div class="left_side">
+             <h3>Customer Reviews</h3>
+             <p> 4 out of 5 <span> (17 reviews)</span></p>
+             <br>
+             <meter value="4" min="0" max="5"></meter>
+         </div>
+
+          <div class="right_side">
+            <form action="{% url 'predict' %}" method="POST">
+              {% csrf_token %}
+                <h3 id="textarea_comment">Write your review <span class="glyphicon glyphicon-comment"></span> </h3>
+                <textarea class="form-control" rows="10" id="comment" name="comment">....</textarea>
+                <button type="submit" class="btn btn-info" id="Btnsubmit"> Submit </button>
+            </form>
+          </div>
+
+         </div>
+      </div>
+</body>
+</html>
