@@ -1,0 +1,40 @@
+.container{
+    margin: 50px 50px;
+}
+.head{
+    font-weight: bold;
+    font-size: 25px;
+}
+.left_side {
+    float: left;
+    max-width: 400px;
+    margin: 80px 20px;
+    padding: 1em;
+}
+.right_side {
+    vertical-align: top;
+    margin-left: 300px;
+    width: 70%;
+    padding: 1em;
+    overflow: hidden;
+}
+#Btnsubmit{
+    margin-top: 20px;
+    float:right;
+}
+.left_side > h4{
+    float:right;
+}
+.left_side > p{
+    float:right;
+    font-weight: bold;
+}
+meter::-webkit-meter-bar {
+    background: #FFF;
+    border: 1px solid #cccccc;
+    width:200px;
+    height:20px;
+}
+meter::-webkit-meter-optimum-value {
+    background: #f44336;
+}
